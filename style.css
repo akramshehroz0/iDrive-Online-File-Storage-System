@@ -1,0 +1,81 @@
+.Container {
+    border-radius: 10px;
+    border-color: rgb(18, 4, 83);
+    border-style: solid;
+    margin: auto;
+    margin-top: 90px;
+    width: 50%;
+    background-color: rgb(35, 110, 196);
+    padding: 10px;
+}
+
+body, html {
+  height: 100%;
+}
+
+body{
+    background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.myForm {
+    margin: auto;
+    width: 400px;
+    text-align: justify;
+}
+
+.myForm label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myForm input {
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myForm input:focus {
+    border: 3px solid blue;
+}
+
+.submitButton {
+    margin-left: 25%;
+    width: 50% !important;
+}
+
+.submitButton:hover {
+    background-color:blue;
+    color:white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .Container {
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .myForm {
+        margin: auto;
+        width: 90%;
+        text-align: justify;
+        
+    }
+}

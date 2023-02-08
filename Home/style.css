@@ -1,0 +1,170 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(35, 110, 196);
+    color: white;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 16px;
+}
+
+.navbar h1{
+    float: left;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-right a {
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.navbar-right a:hover {
+    color: rgb(201, 201, 201);
+}
+
+.userInfoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(179, 179, 179);
+    color: rgb(0, 0, 0);
+}
+
+.userInfoBar h3{
+    margin-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.userInfoBar button{
+    margin-right: 20px;
+    background-color: rgb(35, 110, 196);
+    border-color: blue;
+    font-size: 20px;
+    height: 30px;
+    color: white;
+}
+
+.userInfoBar button:hover{
+    background-color: blue;
+}
+
+.filesDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px 0px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: rgb(35, 110, 196);
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr :hover{
+    background-color: rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(35, 110, 196);
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(35, 110, 196);
+}
+
+.btn{
+    width: 20%;
+}
+
+.centerClass{
+    width: 60%;
+    text-align: center;
+}
+
+.loading {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #444444;
+    opacity: 0.8;
+    visibility: hidden;
+
+}
+
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.oppIcon{
+    width: 40px;
+} 
+
+@media only screen and (max-width: 600px) {
+  .oppIcon{
+    width: 25px;
+}
+
+    .styled-table th,
+    .styled-table td {
+        padding: 5px 5px;
+    }
+
+    .userInfoBar h3{
+        font-size: 15px;
+    }
+
+    .userInfoBar button{
+        font-size: 15px;
+        height: 24px;
+    }
+}
