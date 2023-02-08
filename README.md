@@ -26,6 +26,6 @@ The online file storage system will provide users with a secure and convenient p
 
 ## Screen Shots
 
-![Login Page of IDrive: Storage System](/Site Images/Login.png "Login Page iDrive")
-![SignUp Page of IDrive: Storage System](/Site Images/SignUp.png "SignUp Page iDrive")
-![Home Page of IDrive: Storage System](/Site Images/Homepage.png "Home Page iDrive")
+<img src="/Site Images/Login.png" alt="Login Page" style="width: 100%"/>
+<img src="/Site Images/SignUp.png" alt="SignUp Page" style="width: 100%"/>
+<img src="/Site Images/HomePage.png" alt="Home Page" style="width: 100%"/>
