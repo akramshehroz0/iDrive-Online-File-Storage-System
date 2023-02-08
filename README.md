@@ -28,4 +28,4 @@ The online file storage system will provide users with a secure and convenient p
 
 <img src="/Site Images/Login.png" alt="Login Page" style="width: 100%"/>
 <img src="/Site Images/SignUp.png" alt="SignUp Page" style="width: 100%"/>
-<img src="/Site Images/HomePage.png" alt="Home Page" style="width: 100%"/>
+<img src="/Site Images/Homepage.png" alt="Home Page" style="width: 100%"/>
